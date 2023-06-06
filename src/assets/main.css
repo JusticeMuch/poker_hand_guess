@@ -1,4 +1,5 @@
 @import './base.css';
+@import "vue-select/dist/vue-select.css";
 
 #app {
   max-width: 1280px;
