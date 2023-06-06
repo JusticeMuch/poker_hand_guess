@@ -49,7 +49,7 @@ export default defineComponent({
       }
     },
     result(){
-      console.log(this.result)
+      
     }
   },
   computed: {
@@ -141,6 +141,7 @@ export default defineComponent({
         }else{
           this.result = "Two Pair";
         }
+        return;
       }
 
       //done checking for all pairs
